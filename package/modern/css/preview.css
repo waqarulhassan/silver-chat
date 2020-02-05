@@ -1,0 +1,83 @@
+/* Do not change as this is for the operator preview window */
+.lcpoppreview {
+	position: absolute;
+	display: block;
+	right: 30px;
+	bottom: 70px;
+	width: 300px;
+	height: 0px;
+	font-size: 1rem;
+	z-index: 9999;
+	background: #fff;
+}
+.lcpoppreview.left {
+	left: 20px;
+	bottom: 40px;
+}
+.lcpoppreview .lcj-chat-header {
+	text-align: left;
+}
+
+/* Title / Buttons */
+.lcpoppreview .lcj-chat-header {
+	position: relative;
+	height: 60px;
+	color: #ffffff;
+	float: left;
+	font-size: 1.2rem;
+	width: 460px;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	background: transparent;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index:9999;
+    padding:20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#193f52+0,112c39+100 */
+	background: #193f52; /* Old browsers */
+	background: -moz-linear-gradient(top, #193f52 0%, #112c39 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #193f52 0%,#112c39 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #193f52 0%,#112c39 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#193f52', endColorstr='#112c39',GradientType=0 ); /* IE6-9 */
+}
+
+.lcpoppreview .lcj-chat-header .lcj-title {
+	display: inline-block;
+	position: relative;
+	bottom: 7px;
+	width: 170px;
+	cursor: pointer;
+}
+.lcpoppreview .lcj-sprite {
+  background-image: url('../img/chat-sprite.png');
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+.lcj-sprite-logo {
+  background-position: 0 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.lcj-sprite-popup {
+  background-position: 0 -25px;
+}
+.lcj-sprite-close {
+  background-position: 0 -50px;
+}
+
+.lcpoppreview .lcj-chat-header {
+	width: 300px;
+}
+
+/* Slide Image */
+.lcpoppreview .slideimg {
+	position: absolute;
+	top: -120px;
+	right: 40px;
+	cursor: pointer;
+	z-index: 9999;
+}

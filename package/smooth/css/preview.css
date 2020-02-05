@@ -1,0 +1,40 @@
+.live-chat-slideup-container {
+  position: relative;
+  float: left;
+  text-align: right;
+}
+.lcj-chat-header a {
+  text-decoration: none;
+}
+.lcj-chat-header {
+  position: relative;
+  color: #8f8f8f;
+  font-size: 1rem;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  padding: 5px 10px;
+  margin-right: .1rem;
+  display: inline-block;
+}
+.btn-circle {
+  width: 35px;
+  height: 35px;
+  line-height: 35px; /* adjust line height to align vertically*/
+  border-radius: 50%;
+  background: #4ec2c1;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: .1rem;
+  text-align: center;
+}
+.btn-circle:hover {
+  color: #ffffff;
+}
+.btn-red, .btn-red:hover {
+  background: #fc6064;
+  color: #a84943;
+}
+.lcj-slide-img {
+  cursor: pointer;
+}
